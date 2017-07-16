@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<title>Test Your Network's Multicast Capability</title>
+<meta name="GENERATOR" content="Modular DocBook HTML Stylesheet Version 1.79" />
+<link rel="NEXT" title="Tool Notes" href="tool-notes.html" />
+<link rel="STYLESHEET" type="text/css" href="docbook.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body class="ARTICLE" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#840084"
+alink="#0000FF">
+<div class="ARTICLE">
+<div class="TITLEPAGE">
+<h1 class="TITLE"><a id="AEN2" name="AEN2">Test Your Network's Multicast
+Capability</a></h1>
+
+<p class="COPYRIGHT">Copyright &copy; 2004 - 2011 Informatica, Inc.</p>
+
+<p class="PUBDATE">November 9, 2010<br />
+</p>
+
+<div class="DOCFORAMTNAVI">[ <a href="./index.html">Split HTML</a> / <a
+href="testnet.html">Single HTML</a> / <a href="testnet.pdf">Single PDF</a> ]</div>
+
+<hr />
+</div>
+
+<div class="TOC">
+<dl>
+<dt><b>Table of Contents</b></dt>
+
+<dt>1. <a href="index.html#INTRODUCTION">Introduction</a></dt>
+
+<dt>2. <a href="tool-notes.html">Tool Notes</a></dt>
+
+<dt>3. <a href="initial-five.html">The Initial Five Tests</a></dt>
+
+<dt>4. <a href="mpong.html">Mpong</a></dt>
+</dl>
+</div>
+
+<blockquote class="ABSTRACT">
+<div class="ABSTRACT"><a id="AEN8" name="AEN8"></a>
+<p>Tools and instruction to test your network's multicast connectivity and performance.
+The tools package contains documentation, source code and pre-compiled executables for
+Windows and a variety of Unixes.</p>
+</div>
+</blockquote>
+
+<div class="SECTION">
+<h1 class="SECTION"><a id="INTRODUCTION" name="INTRODUCTION">1. Introduction</a></h1>
+
+<p>Many organizations are looking to switch their high-speed messaging from TCP to
+Multicast. This can drastically improve their performance in streaming data applications,
+such as live market data, where you have many subscriber programs. However, many
+corporate network infrastructures provide limited multicast connectivity or are not able
+to sustain high message rates. Even sites that are successfully using multicast with
+legacy messaging systems encounter problems after an upgrade to a higher-performing
+messaging layer.</p>
+
+<p>Fortunately, most modern networking hardware is capable of passing wire-speed
+multicast with appropriate configuration parameters. The key is discovering configuration
+problems early and diagnosing them. The "msend", "mdump", and "mpong" tools can help. We
+at Informatica invite you to use them to evaluate your network's capacity to carry
+multicast traffic.</p>
+
+<div class="WARNING">
+<blockquote class="WARNING">
+<p><b>Warning</b>: If used carelessly, the msend tool can produce significant network
+loading and congestion, to the point of rendering switches and routers virtually
+non-functional. When using large burst counts (-b&gt;500) and/or small pause times
+(-p&lt;100), make sure to keep the number of bursts (-n) small enough to limit the
+duration of the test to a few seconds.</p>
+</blockquote>
+</div>
+
+<div class="NOTE">
+<blockquote class="NOTE">
+<p><b>Note:</b> These tools are offered to the general public in both source and
+executable form for any use without license. THE SOFTWARE IS PROVIDED "AS IS" AND
+INFORMATICA DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION,
+ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE. INFORMATICA DOES NOT WARRANT THAT USE OF THE SOFTWARE WILL BE UNINTERRUPTED OR
+ERROR-FREE. INFORMATICA SHALL NOT, UNDER ANY CIRCUMSTANCES, BE LIABLE TO LICENSEE FOR
+LOST PROFITS, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR INDIRECT DAMAGES ARISING OUT OF OR
+RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREUNDER, EVEN IF INFORMATICA
+HAS BEEN APPRISED OF THE LIKELIHOOD OF SUCH DAMAGES.</p>
+</blockquote>
+</div>
+</div>
+</div>
+
+<div class="NAVFOOTER">
+<hr align="LEFT" width="100%" />
+<table summary="Footer navigation table" width="100%" border="0" cellpadding="0"
+cellspacing="0">
+<tr>
+<td width="33%" align="left" valign="top">&nbsp;</td>
+<td width="34%" align="center" valign="top">&nbsp;</td>
+<td width="33%" align="right" valign="top"><a href="tool-notes.html"
+accesskey="N">Next</a></td>
+</tr>
+
+<tr>
+<td width="33%" align="left" valign="top">&nbsp;</td>
+<td width="34%" align="center" valign="top">&nbsp;</td>
+<td width="33%" align="right" valign="top">Tool Notes</td>
+</tr>
+</table>
+</div>
+
+<p align="center">Copyright 2005 - 2011 Informatica, Inc.</p>
+</body>
+</html>
+
