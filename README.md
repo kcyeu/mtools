@@ -1,6 +1,8 @@
 # mtools
 Multicast tools from informatica
 
+---
+
 This package contains the "msend" and "mdump" tools to aid in testing
 multicast networks.  You will find herein documentation, the source code and
 executables built on a number of platforms:
@@ -18,6 +20,8 @@ executables built on a number of platforms:
   * Darwin-9.4.0-i386 (Mac OSX on x86 hardware)
 
 The documentation is under the "TestNet" directory.
+
+---
 
 These tools are offered to the general public for any use without license.
 
